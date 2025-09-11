@@ -31,9 +31,6 @@
     border: none;
     cursor: pointer;
 }
-.dropbtn:hover, .dropbtn:focus{
-    
-}
 .dropdown{
     position: relative;
     display: inline-block;
@@ -61,6 +58,49 @@
 
 .show {display: block;}
 
-.body{
-    background-image: url(../content/3dpggg.png);
+body{
+    background-image: url(../content/3dpggg.png) ;
+    background-size: 100%;
+     margin: 0px;
 }
+.main-head{
+    color: white;
+
+}
+
+
+@font-face {
+    font-family: 'neon-whirl';
+    src: url(../fonts/NeonWhirl-PVmlg.ttf);
+}
+.main-head h1{
+    font-family: 'neon-whirl';
+    color: rgb(151, 227, 255);
+    font-weight:100;
+    font-style: italic;
+    font-size: 100px;
+}
+.main-head{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.708);
+    margin-top: 50px; margin-left: 50px; margin-right: 90px;
+    padding: 40px;
+    clip-path: polygon(
+        0 35%,
+        8% 0,
+        100% 0,
+        100% 65%,
+        92% 100%,
+        0% 100%
+    );
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

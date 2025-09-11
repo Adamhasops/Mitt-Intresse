@@ -61,10 +61,12 @@
 
 .show {display: block;}
 body{
-    background-image: url(/content/868848.png);
-    background-size: 100%;
+    background-image: url(../content/british-columbia-foggy-forest.jpg);
+    background-size: 1550px;
      margin: 0px;
 }
+
+
 
 /*
 .orbitron-<uniquifier> {
@@ -73,7 +75,3 @@ body{
   font-weight: <weight>;
   font-style: normal;
 }*/
- 
-.dprint{
-
-}
