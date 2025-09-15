@@ -99,20 +99,31 @@ body{
     display: flex;
     justify-self: center;
     flex-direction: row;
-    align-items: center;
     gap: 100px;
 }
 .boxes a{
     text-decoration: none;
     color: white;
     font-size: 30px;
-}
-.boxes{
-    border-style: dashed;
-    color:white;
-    padding: 20px;     
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: ;
 }
 
+.boxes{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top:  100px;
+    border-style: dashed;
+    color:white;
+    padding: 10px;    
+}
+.boxes:hover{
+    padding: 20px;
+
+}
 
 
 
