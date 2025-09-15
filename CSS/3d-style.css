@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 .navbar{
     display: flex;
     align-items: center;
@@ -63,12 +64,6 @@ body{
     background-size: 100%;
      margin: 0px;
 }
-.main-head{
-    color: white;
-
-}
-
-
 @font-face {
     font-family: 'neon-whirl';
     src: url(../fonts/NeonWhirl-PVmlg.ttf);
@@ -80,24 +75,44 @@ body{
     font-style: italic;
     font-size: 100px;
 }
+
 .main-head{
-    display: flex;
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.708);
-    margin-top: 50px; margin-left: 50px; margin-right: 90px;
-    padding: 40px;
+    width: 650px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
     clip-path: polygon(
         0 35%,
-        8% 0,
+        10% 0,
         100% 0,
         100% 65%,
-        92% 100%,
+        90% 100%,
         0% 100%
     );
-    overflow: hidden;
 }
-
-
-
+.main-body{
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+.boxes a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.boxes{
+    border-style: dashed;
+    color:white;
+    padding: 20px;
+        
+}
 
 
 
