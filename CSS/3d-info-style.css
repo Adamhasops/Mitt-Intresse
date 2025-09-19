@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 .navbar{
     display: flex;
     align-items: center;
@@ -31,9 +32,6 @@
     border: none;
     cursor: pointer;
 }
-.dropbtn:hover, .dropbtn:focus{
-    
-}
 .dropdown{
     position: relative;
     display: inline-block;
@@ -60,18 +58,15 @@
 }
 
 .show {display: block;}
+
 body{
-    background-image: url(../content/british-columbia-foggy-forest.jpg);
-    background-size: 1550px;
-    margin: 0px;
-    background-image;
+    margin: 0%;
 }
-
-
-/*
-.orbitron-<uniquifier> {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}*/
+.background{
+    background-color: blue;
+    height: 1000px;
+    margin: 20px;
+}
+.title-1{
+    
+}

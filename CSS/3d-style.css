@@ -108,21 +108,25 @@ body{
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: ;
-}
 
-.boxes{
-    position: relative;
+}
+.main-body{
     display: flex;
     align-items: center;
+    height: 50vh;
+}
+.boxes{
+    transition: transform .2s;
+    background-color: rgba(0, 0, 0, 0.708);
     margin-top:  100px;
     border-style: dashed;
     color:white;
-    padding: 10px;    
+    padding: 10px;
+    margin: 20px;
 }
 .boxes:hover{
-    padding: 20px;
-
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 
