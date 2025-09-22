@@ -14,7 +14,9 @@
     font-weight: 600;
     font-style: bold;
 }
-
+.navbar h1{
+    text-shadow: 2px 2px 4px #000000;
+}
 .navbar-left{
     color: white;
     display: flex;

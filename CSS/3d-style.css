@@ -15,7 +15,9 @@
     font-weight: 600;
     font-style: bold;
 }
-
+.navbar h1{
+    text-shadow: 2px 2px 4px #000000;
+}
 .navbar-left{
     color: white;
     display: flex;
@@ -108,8 +110,8 @@ body{
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-
 }
+
 .main-body{
     display: flex;
     align-items: center;
