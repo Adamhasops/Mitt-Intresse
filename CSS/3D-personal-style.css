@@ -1,12 +1,12 @@
 *{box-sizing: border-box;}
 body{
-    margin: 0%;
-    background-color: black;
+    background-image: url(../content/pixel-printer.png);
 }
 .background{
     background-image: linear-gradient(to bottom, rgb(108, 159, 178), rgb(16, 55, 109));
     height: 1600px;
-    margin: 10px;
+    width: 90vw;
+    margin: 5vw auto;
     color:rgb(255, 255, 255);
     padding: 50px;
     font-family: "Roboto", sans-serif;
@@ -32,43 +32,21 @@ body{
     gap: 40px;
     padding-bottom: 1%;
 }
+.right-body{
+    display: flex;
+    flex-direction: column;
+}
 .left-body img{
     width: 600px;
     border-radius: 1%;
 }
-
 .ul-1{
     background-color: rgb(255, 255, 255);
     height: 3px;
     box-shadow: 2px 2px 4px #000000;
 }
-
-.info-2{
-    text-shadow: 2px 2px 4px #000000;
-    margin-top: 50px
-}
 .title-2{
     display: flex;
     justify-content: center;
-    text-decoration: underline;
 }
-.body-2{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 40px;
-    padding-bottom: 1%;
-
-}
-.left-body-2 img{
-    width: 600px;
-    border-radius: 1%;
-}
-.right-body-2{
-    display: flex;
-    align-items: center;
-}
-
-.text-2{
-    display: flex;
-    flex-direction: column;
-}
+.right-body-2

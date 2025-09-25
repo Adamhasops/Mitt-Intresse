@@ -1,66 +1,3 @@
-*{box-sizing: border-box;}
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    background-image: linear-gradient(to right, rgb(16, 55, 109), rgb(31, 106, 211) );
-    border-style: solid;
-    border-width: 7px;
-    border-left: 0; border-right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 60px;
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: bold;
-}
-.navbar h1{
-    text-shadow: 2px 2px 4px #000000;
-}
-.navbar-left{
-    color: white;
-    display: flex;
-}
-.navbar-right{
-    display: flex;
-    align-items: ;
-}
-.dropbtn img{
-    width: 40px;
-}
-.dropbtn{
-    background-color:  rgb(31, 106, 211);
-    border: none;
-    cursor: pointer;
-}
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color:  rgb(31, 106, 211);
-    min-width: 180px;
-    right: -20px;
-    text-align: end;
-    font-weight:500
-}
-.dropdown-content a{
-    color: white;
-    padding: 20px;
-    display: block;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover{
-    color:  rgb(21, 73, 146);
-    
-}
-
-.show {display: block;}
-
 body{
     background-image: url(../content/3dpggg.png) ;
     background-size: 100%;
@@ -101,7 +38,8 @@ body{
     display: flex;
     justify-self: center;
     flex-direction: row;
-    gap: 100px;
+    align-items: center;
+    height: 50vh;
 }
 .boxes a{
     text-decoration: none;
@@ -112,11 +50,7 @@ body{
     font-weight: 600;
 }
 
-.main-body{
-    display: flex;
-    align-items: center;
-    height: 50vh;
-}
+
 .boxes{
     transition: transform .2s;
     background-color: rgba(0, 0, 0, 0.708);
@@ -124,14 +58,10 @@ body{
     border-style: dashed;
     color:white;
     padding: 10px;
-    margin: 20px;
+    margin: 60px;
 }
 .boxes:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
-
-
-
-
 
