@@ -7,10 +7,19 @@ body{
     font-family: 'neon-whirl';
     src: url(../fonts/NeonWhirl-PVmlg.ttf);
 }
+.title{
+    color: rgb(0, 104, 142);
+}
+.u-title{
+    position: absolute;
+    color: rgb(151, 227, 255);
+    right: 83px;
+    top: -40px;
+    
+}
 .main-head h1{
     font-family: 'neon-whirl';
-    color: rgb(151, 227, 255);
-    font-weight:100;
+    font-weight: 100;
     font-style: italic;
     font-size: 100px;
 }

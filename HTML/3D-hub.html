@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D-Hub</title>
-    <link rel="icon" type="image/x-icon" href="content/Rityta 1.png">
+    <link rel="icon" type="image/x-icon" href="../content/Rityta 1.png">
     <link rel="stylesheet" href="../CSS/3d-style.css">
     <link rel="stylesheet" href="../CSS/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,42 +12,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-
-        <div class="navbar-left">
-            <h1> Visst är det kul att 3D-printa?</h1>
-        </div>
-
-        <div class="navbar-right">
-            <div class="dropdown">
-                <button onclick="myfunction()" class="dropbtn"><img src="../content/icons8-hamburger-menu-30.png" alt=""> </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="3D-hub.html">Mina Intressen</a>
-                    <a href="">Om mig</a>
-                    <a href="../index.html">Hem</a>
-                </div>
-            </div>
+<div class="navbar">
+    <div class="navbar-left">
+        <h1> Visst är det kul att 3D-printa?</h1>
+    </div>
+    <div class="navbar-right">
+    <div class="dropdown">
+        <button onclick="myfunction()" class="dropbtn"><img src="../content/icons8-hamburger-menu-30.png" alt=""> </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../index.html">Hem</a>
+            <a href="">Om mig</a>
+            <a href="3D-hub.html">Mina Intressen</a>
         </div>
     </div>
     </div>
-    <div class="main">
-        <div class="main-head">
-                 <h1>
-                3D-PRINTING
-            </h1>
+</div>
+</div>
+<div class="main">
+    <div class="main-head">
+    <div class="u-title"> <h1>3D-PRINTING</h1></div>
+    <div class="title"><h1>3D-PRINTING</h1></div>
+    </div>
+    
+    <div class="main-body">
+        <div class="boxes">
+            <a href="3D-info.html" target="_blank">Vad 3D-printing är och hur det används</a>
         </div>
-        <div class="main-body">
-            <div class="boxes">
-                <a href="3D-info.html" target="_blank">Vad 3D-printing är och hur det används</a>
-            </div>
-            <div class="boxes">
-                <a href="3D-personal.html" target="_blank">Mina personliga erfarenheter/koppling</a>
-            </div>
-            <div class="boxes">
-                <a href="3D-Print.html" target="_blank">Mina 3D-Print</a>
-            </div>
+        <div class="boxes">
+            <a href="3D-personal.html" target="_blank">Mina personliga erfarenheter/koppling</a>
+        </div>
+        <div class="boxes">
+            <a href="3D-Print.html" target="_blank">Mina 3D-Print</a>
         </div>
     </div>
+</div>
 <script>
 function myfunction() {
     document.getElementById("myDropdown").classList.toggle("show");

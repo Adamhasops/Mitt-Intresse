@@ -1,12 +1,14 @@
 *{box-sizing: border-box;}
 body{
     margin: 0%;
-    background-color: black;
+    background-image: url(../content/3d-backdrop_edited.jpg);
 }
 .background{
-    background-image: linear-gradient(to bottom, rgb(108, 159, 178), rgb(16, 55, 109));
+    background-color: #000000c1;
+    border-style: dashed;
+    border-width: 5px;
     height: 1600px;
-    margin: 10px;
+    margin: 40px;
     color:rgb(255, 255, 255);
     padding: 50px;
     font-family: "Roboto", sans-serif;

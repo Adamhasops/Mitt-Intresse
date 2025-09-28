@@ -4,35 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Välkommen!</title>
-        <link rel="icon" type="image/x-icon" href="content/star-favicon.ico">
+    <link rel="icon" type="image/x-icon" href="content/star-favicon.ico">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div class="navbar">
 
         <div class="navbar-left">
-            <h1>Välkommen till min webbsida!</h1>
+            <h1>Jag älskar HTML och CSS!</h1>
         </div>
 
         <div class="navbar-right">
             <div class="dropdown">
                 <button onclick="myfunction()" class="dropbtn"><img src="content/icons8-hamburger-menu-30.png" alt=""> </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="HTML/3D-hub.html">Mina Intressen</a>
-                    <a href="HTML/om-mig.html">Om mig</a>
                     <a href="index.html">Hem</a>
+                    <a href="HTML/om-mig.html">Om mig</a>
+                    <a href="HTML/3D-hub.html">Mina Intressen</a>
                 </div>
             </div>
         </div>
-    
-    
-    
     </div>
-    
+
 
 <script>
 function myfunction() {
@@ -50,6 +47,32 @@ window.onclick = function(event) {
     }
 }
 </script>
+
+  <section id="hero">
+    <div id="vanta-bg"></div>
+    <div class="content">
+      <h1>Välkommen till min webbsida!</h1>
+      <p>Cool animated background just for this section 🎉</p>
+    </div>
+  </section>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x8300ff,
+      backgroundColor: 0x15193c,
+      points: 8.00
+    })
+  </script>
 
 </body>
 </html>
