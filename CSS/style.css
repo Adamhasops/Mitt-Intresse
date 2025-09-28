@@ -25,7 +25,7 @@
 }
 .navbar-right{
     display: flex;
-    align-items: ;
+
 }
 .dropbtn img{
     width: 40px;
@@ -45,11 +45,13 @@
 .dropdown-content{
     display: none;
     position: absolute;
+    text-shadow: 2px 2px 4px #000000;
     background-color:  rgb(31, 106, 211);
     min-width: 180px;
     right: -20px;
     text-align: end;
     font-weight:500
+
 }
 .dropdown-content a{
     color: white;
@@ -86,9 +88,12 @@
     z-index: 2;
     color: white;
     text-align: center;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
-    font-family: Arial, sans-serif;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
 /*
